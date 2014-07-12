@@ -14,6 +14,8 @@ import fractions
 
 from . import (config, exceptions)
 
+
+
 D = decimal.Decimal
 b26_digits = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
@@ -706,5 +708,8 @@ def supplies (db):
 
     cursor.close()
     return supplies
+
+# if __name__ == '__main__':
+#    print(config.RPC)
 
 # vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4

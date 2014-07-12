@@ -717,6 +717,9 @@ if __name__ == '__main__':
                 testnet=args.testnet, testcoin=args.testcoin, unittest=False,
                 carefulness=args.carefulness, force=args.force)
 
+    # print(config.RPC)
+    # print(config.DATABASE)
+
     #Create/update pid file
     pid = str(os.getpid())
     pidf = open(config.PID, 'w')
